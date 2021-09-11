@@ -26,7 +26,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     position: relative;
     overflow: hidden;
     background: #fff;
-    background: url("../images/banner/3.png") no-repeat;
+    background: url("../images/banner/bann.jpg") no-repeat;   
+   
     background-size: cover;
     min-height: 550px;
   }
@@ -88,3 +89,95 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .page-title{
         margin-top: 70px;
 }
+
+.features {
+        margin-top: -70px;
+      }
+
+      .feature-item {
+        flex-basis: 33.33%;
+        margin: 0px 10px;
+        padding: 40px 30px;
+        background-color: #fff;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+      }
+      
+      .feature-item .feature-icon i {
+        font-size: 50px;
+        color: #223a66;
+      }
+      
+      .feature-item h4 {
+        color: #223a66;
+      }
+      
+      .feature-item p {
+        font-size: 14px;
+      }
+      
+      .feature-section.border-top {
+        border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+      }
+
+
+
+      .btn {
+        display: inline-block;
+        font-size: 14px;
+        font-size: 0.8125rem;
+        font-weight: 700;
+        letter-spacing: .5px;
+        padding: .75rem 2rem;
+        font-family: "Exo", sans-serif;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        transition: all .35s ease;
+      }
+      
+      .btn.btn-icon i {
+        border-left: 1px solid rgba(255, 255, 255, 0.09);
+        padding-left: 15px;
+      }
+      
+      .btn:focus {
+        outline: 0px;
+        box-shadow: none;
+      }
+      
+      .btn-main {
+        background: #223a66;
+        color: #fff;
+        border-color: #223a66;
+      }
+      
+      .btn-main:hover {
+        background: #e12454;
+        border-color: #e12454;
+        color: #fff;
+      }
+      
+      .btn-main-2 {
+        background: #e12454;
+        color: #fff;
+        border-color: #e12454;
+      }
+      
+      .btn-main-2:hover {
+        background: #223a66;
+        color: #fff;
+        border-color: #223a66;
+      }
+      
+      .btn-solid-border {
+        border: 2px solid #223a66;
+        background: transparent;
+        color: #223a66;
+      }
+      
+      .btn-solid-border:hover {
+        border: 2px solid #223a66;
+        color: #fff;
+        background: #223a66;
+      }
